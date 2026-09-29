@@ -5,7 +5,7 @@ import { DashboardCounts } from './components/dashboard/DashboardCounts';
 import { TaskList } from './components/tasks/TaskList';
 import { TaskDetailModal } from './components/tasks/TaskDetailModal';
 import { ProjectModal } from './components/projects/ProjectModal';
-import { Task, Project } from './types';
+import type { Task, Project } from './types';
 import { Search, Plus, Settings, Menu } from 'lucide-react';
 
 function App() {

@@ -1,7 +1,6 @@
-import React from 'react';
 import { 
   CheckCircle2, CalendarDays, Inbox, Clock, CalendarClock, 
-  Folder, Plus, MoreVertical, Sun, Moon
+  Folder, Plus, Sun, Moon
 } from 'lucide-react';
 import { useStore } from '../../store/useStore';
 import { cn } from '../../lib/utils';

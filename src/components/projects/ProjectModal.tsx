@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Project } from '../../types';
+import type { Project } from '../../types';
 import { useStore } from '../../store/useStore';
 import { X, Trash2 } from 'lucide-react';
 
